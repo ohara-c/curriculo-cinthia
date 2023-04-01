@@ -13,10 +13,10 @@
     --fonte-secundaria: 'Montserrat', sans-serif;
 
    /* tamanho das fontes */ 
-    --fonte-titulo: 1.75rem;
-    --fonte-links: 1.25rem;
-    --fonte-texto: 1.12rem;
-    --fonte-rodape: 1rem;
+    --fonte-titulo: 2.25rem;
+    --fonte-links: 1.5rem;
+    --fonte-texto: 1.5rem;
+    --fonte-rodape: 1.5rem;
 
 
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 10%;
+    padding: 2% 0% 0% 15%;
 
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .apresentacao {
-    padding: 3.8% 10%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,10 +59,10 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -104,7 +104,7 @@ body {
     
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
 
     border: 2px solid var(--cor-destaque);
     width: 50%;
@@ -112,7 +112,7 @@ body {
     border-radius: 14px;
     font-size: var(--fonte-links);
     font-weight: 600;
-    padding: 15px 0;
+    padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-texto);
     font-family: var(--fonte-secundaria);
@@ -123,11 +123,11 @@ body {
 }
 
 .aprensentacao__imagem {
-    width: 30%;
+    width: 50%;
 }
 
 .rodape {
-    padding: 18px;
+    padding: 24px;
     color: var(--cor-fundo);
     background-color: var(--cor-destaque);
     text-align: center;
@@ -138,7 +138,7 @@ body {
 
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 8%;
+        padding: 10%;
     }
    
     .cabecalho__menu {
